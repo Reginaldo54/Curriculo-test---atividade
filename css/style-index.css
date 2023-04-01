@@ -1,0 +1,135 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing:content-box;
+}
+
+
+body
+{
+  background: linear-gradient(rgb(70, 18, 71), purple);
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+
+}
+
+a
+{
+    color: rgb(235, 11, 30);
+}
+
+header
+{
+    margin-left: -200px;
+}
+header img
+{
+
+    border-radius: 40%;
+}
+
+main ul
+{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+   margin-left: 30%; 
+}
+
+main ul li
+{
+    margin-left: 10px;
+}
+
+main ul a
+{
+    color: black;
+}
+
+button
+{
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+section
+{
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#sobre
+{
+    text-align: left;
+    margin-left: 27%;
+    margin-right: 27%;
+
+}
+
+#dadosPessoais ul, #dadosPessoais h2
+{
+    text-align: left;
+    margin-left: 40.5%;
+}
+
+
+#formacaoComp ol
+{
+    text-align: left;
+    margin-left: 40.5%;
+}
+
+table
+{
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin-left: 350px;
+
+    -webkit-box-shadow: 20px 20px 25px 8px rgba(0,0,0,0.42);
+    -moz-box-shadow: 20px 20px 25px 8px rgba(0,0,0,0.42);
+    box-shadow: 20px 20px 25px 8px rgba(0,0,0,0.42);
+    padding: 1px;
+}
+
+table caption
+{
+    width: 600;
+    font-size: 20px;
+    
+
+}
+
+table thead tr th
+{
+    background-color: black;
+    color: aliceblue;
+
+}
+
+table tbody tr:nth-child(even)
+{
+    background-color: rgb(49, 30, 4);
+}
+
+table tbody tr:hover
+{
+
+    background-color: black;
+    color: azure;
+}
+
+#formacaoAcad
+{
+   display: inline-block;
+   justify-content: center;
+}
+
+footer
+{
+    margin-left: 30%;
+
+}
